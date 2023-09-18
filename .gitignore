@@ -1,0 +1,45 @@
+# Add the following to your gitignore:
+
+# Instance Sync
+**/*.jar
+!InstanceSync*.jar
+**/*.jar.disabled
+**/*.jar.meta
+
+# Optional: Generic Modpack Ignores
+**/*.log
+/.mixin.out
+/saves
+/downloads
+/resourcepacks
+.curseclient
+options.txt
+logs/
+
+screenshots/
+
+realms_persistence.json
+
+config/jei/bookmarks.ini
+
+XaeroWorldMap/
+
+usercache.json
+
+usernamecache.json
+
+journeymap/
+
+.vote2020_marker
+
+BotaniaVars.dat
+
+patchouli_data.json
+
+crash-reports/
+
+local/
+
+backups/
+
+secrets.jsonc

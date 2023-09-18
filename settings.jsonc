@@ -1,0 +1,124 @@
+{
+    // =====================================================================//
+    //  CURSEFORGE ACCOUNT SETTINGS
+    // =====================================================================//
+    
+    "CURSEFORGE_AUTHOR": "asylumdev",
+    
+    // ProjectID can be found on the modpack's Curseforge Projects page, under "About This Project"
+    "CF_ID": 123456,
+    
+    // =====================================================================//
+    //  MAIN MODPACK SETTINGS
+    // =====================================================================//
+    
+    // This is the modpack name as seen on the CurseForge page
+    "MODPACK_NAME": "ADG Omega 8",
+    
+    // Name of the Modpack in the ZIP File
+    "CLIENT_NAME": "ADGOmega8",
+    
+    // Version Of The Modpack
+    "MODPACK_VERSION": "0.1.0",
+    
+    // Last Version Of The Modpack
+    // Needed For Changelog Parsing
+    // Should be "null" if this is the first release
+    "LAST_MODPACK_VERSION": "null",
+    
+    // Which modloader the modpack uses
+    // Can be "forge" or "fabric"
+    // Default: "forge"
+    "MODLOADER": "forge",
+    
+    // =====================================================================//
+    //  CURSEFORGE PROJECT SETTINGS
+    // =====================================================================//
+    
+    // Modpack's Minecraft Version
+    // 4449 - 1.7.10
+    // 5806 - 1.8.9
+    // 6084 - 1.9.4
+    // 6170 - 1.10.2
+    // 6452 - 1.11.2
+    // 6756 - 1.12.2
+    // 7132 - 1.13.2
+    // 7469 - 1.14.4
+    // 7722 - 1.15.2
+    // 8203 - 1.16.5
+    // 9008 - 1.18.2
+    "GAME_VERSIONS": [0],
+    
+    // Can be "alpha", "beta" or "release"
+    "RELEASE_TYPE": "release",
+    
+    //=====================================================================//
+    //  DEPENDENCIES
+    //=====================================================================//
+    
+    // File name of the latest https://github.com/ModdingX/ModListCreator/releases
+    "CHANGELOG_MODLIST_GENERATOR_JAR": "ModListCreator-4.0.3-fatjar.jar",
+    
+    //=====================================================================//
+    //  CLIENT FILE SETTINGS
+    //=====================================================================//
+    // Note: "mods" is included automatically and will break the script if you include it yourself.
+    "FOLDERS_TO_INCLUDE_IN_CLIENT_FILES": [
+        "config",
+        "defaultconfigs",
+        "kubejs"
+    ],
+        
+    // Example: "Apotheosis-1.19.2-6.2.1.jar", "create-1.19.2-0.5.1.b.jar"
+    "FILES_TO_INCLUDE_IN_MODS_FOLDER_IN_CLIENT_FILES": [],
+    
+    //=====================================================================//
+    //  SERVER FILE SETTINGS
+    //=====================================================================//
+    
+    "SERVER_FILES_FOLDER": "server_files",
+   
+    // =====================================================================//
+    //  MODULES
+    // =====================================================================//
+    
+    // Toggle automatic building of the manifest zip on/off
+    // Default: true
+    "ENABLE_CLIENT_FILE_MODULE": true,
+    
+    // Toggle the modpack uploader on/off
+    // Setting this to false will also disable the Server File and Changelog Generator Modules.
+    // Default: true
+    "ENABLE_MODPACK_UPLOADER_MODULE": true,
+    
+    // Toggle server file feature on/off
+    // Default: true
+    "ENABLE_SERVER_FILE_MODULE": true,
+    
+    // Toggle automatic changelog generator on/off
+    // This module requires an older modpack manifest zip to be present, 
+    // LAST_MODPACK_VERSION must be set, and the manifest naming must be consistent.
+    // Default: false
+    "ENABLE_CHANGELOG_GENERATOR_MODULE": false,
+    // Path to the ChangelogGenerator's output file
+    "CHANGELOG_PATH": "INSTANCE_ROOT/changelogs/changelog_mods_MODPACK_VERSION.md",
+    
+    // Toggle creation of a modlist file on/off
+    // Default: true
+    "ENABLE_MODLIST_CREATOR_MODULE": true,
+    // Path to the ModListCreator's output file
+    "MODLIST_PATH": "INSTANCE_ROOT/changelogs/modlist_MODPACK_VERSION.md",
+    
+    // Toggle removal and re-download of jars on/off.
+    // Setting this to true will ensure that you always have the latest 
+    // Twitch Export Builder and ChangelogGenerator, but increases the
+    // amount of time this script takes to execute.
+    // Default: false
+    "ENABLE_ALWAYS_UPDATE_JARS": false,
+    
+    // Toggles github release integration on/off.
+    // This will create a new release on your issue-tracker when using the modpack uploader.
+    // See below link for info:
+    // Default: false
+    "ENABLE_GITHUB_RELEASE_MODULE": false
+}
