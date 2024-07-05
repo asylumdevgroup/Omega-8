@@ -1,0 +1,39 @@
+CONFIG_VERSION_DO_NOT_TOUCH = 2
+enabled = true
+disableSaving = false
+pauseSounds = false
+debug = false
+
+[debugText]
+x = 4.0
+y = 4.0
+maxDepth = 3
+
+[settingsForModpacks]
+hideDebugButton = false
+hideModCompatButton = false
+registerKeybinds = true
+
+[abilities]
+pauseInventory = "ON"
+pauseCreativeInventory = "ON"
+pauseDeath = "OFF"
+pauseGameModeSwitcher = "OFF"
+pauseCraftingTable = "OFF"
+pauseFurnace = "OFF"
+pauseShulkerBox = "OFF"
+pauseChest = "OFF"
+pauseAnvil = "OFF"
+pauseBeacon = "OFF"
+pauseDispenser = "OFF"
+pauseBrewingStand = "OFF"
+pauseHopper = "OFF"
+pauseCartographyTable = "OFF"
+pauseStonecutter = "OFF"
+pauseHorse = "OFF"
+pauseMerchant = "OFF"
+
+[modCompat]
+customScreens = []
+timeBetweenCompatTicks = 20
+compatScreens = []

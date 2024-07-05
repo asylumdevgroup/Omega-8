@@ -1,0 +1,4 @@
+#Monster types that have a rare chance to drop a minium shard for crafting a minium stone.
+#Drop chances are similar to wither skeleton skulls from wither skeletons.
+minium_shard_drop_monsters_raw = ["minecraft:zombie", "minecraft:zombie_villager", "minecraft:drowned", "minecraft:zombified_piglin", "minecraft:husk", "minecraft:skeleton", "minecraft:wither_skeleton", "minecraft:stray", "minecraft:creeper", "minecraft:spider", "minecraft:cave_spider", "minecraft:enderman", "minecraft:witch"]
+

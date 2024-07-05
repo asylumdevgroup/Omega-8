@@ -43,3 +43,21 @@ local/
 backups/
 
 secrets.jsonc
+
+mods/.connector/
+
+ds_private_storage.json
+
+rhino.local.properties
+
+imgui.ini
+
+heracles_options.json
+
+enigmatic_persistence.dat
+
+fancymenu_data/
+
+data/
+
+blueprints/
