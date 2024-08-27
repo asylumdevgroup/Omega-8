@@ -109,9 +109,9 @@
 #Menu
 [menu]
 	#Enable custom panorama.
-	customPanorama = false
+	customPanorama = true
 	#Enable custom panorama button.
-	panoramaButton = true
+	panoramaButton = false
 	#Custom panorama button row.
 	#Range: 0 ~ 4
 	panoramaButtonRow = 3

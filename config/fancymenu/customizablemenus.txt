@@ -1,5 +1,11 @@
 type = customizablemenus
 
-de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+me.platypus.loadingscreens.client.gui.screens.GenericDirtMessageScreenOverride {
+}
+
+me.platypus.loadingscreens.client.gui.screens.ConnectScreenOverride {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
 }
 

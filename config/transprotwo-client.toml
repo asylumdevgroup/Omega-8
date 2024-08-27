@@ -1,0 +1,12 @@
+
+#Client settings
+[client]
+	#Dictates if the particles are visible
+	showParticles = true
+	#Dictates if the Dispatcher renders the items traveling
+	showItems = true
+	#Dictates if the Dispatcher renders the fluid traveling
+	showFluids = true
+	#Dictates if the Dispatcher renders the power traveling
+	showPower = true
+
