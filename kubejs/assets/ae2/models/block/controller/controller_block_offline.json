@@ -1,7 +1,6 @@
 {
-  "parent": "ae2:block/controller/controller_block_lights",
+  "parent": "block/cube_all",
   "textures": {
-		"0": "ae2:block/controller/center_base",
-		"1": "ae2:block/controller/top_base"
+    "all": "ae2:block/controller"
   }
 }

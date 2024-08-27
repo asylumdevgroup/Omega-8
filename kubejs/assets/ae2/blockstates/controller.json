@@ -29,7 +29,9 @@
     },
     {
       "apply": {
-        "model": "ae2:block/controller/controller_horiztonal_x_offline"
+        "model": "ae2:block/controller/controller_column_offline",
+        "x": 90,
+        "y": 90
       },
       "when": {
         "state": "offline",
@@ -38,7 +40,7 @@
     },
     {
       "apply": {
-        "model": "ae2:block/controller/controller_vertical_offline"
+        "model": "ae2:block/controller/controller_column_offline"
       },
       "when": {
         "state": "offline",
@@ -47,7 +49,8 @@
     },
     {
       "apply": {
-        "model": "ae2:block/controller/controller_horiztonal_z_offline"
+        "model": "ae2:block/controller/controller_column_offline",
+        "x": 90
       },
       "when": {
         "state": "offline",
@@ -56,7 +59,9 @@
     },
     {
       "apply": {
-        "model": "ae2:block/controller/controller_horiztonal_x_online"
+        "model": "ae2:block/controller/controller_column_online",
+        "x": 90,
+        "y": 90
       },
       "when": {
         "state": "online",
@@ -65,7 +70,7 @@
     },
     {
       "apply": {
-        "model": "ae2:block/controller/controller_vertical_online"
+        "model": "ae2:block/controller/controller_column_online"
       },
       "when": {
         "state": "online",
@@ -74,7 +79,8 @@
     },
     {
       "apply": {
-        "model": "ae2:block/controller/controller_horiztonal_z_online"
+        "model": "ae2:block/controller/controller_column_online",
+        "x": 90
       },
       "when": {
         "state": "online",
@@ -83,7 +89,9 @@
     },
     {
       "apply": {
-        "model": "ae2:block/controller/controller_horiztonal_x_conflicted"
+        "model": "ae2:block/controller/controller_column_conflicted",
+        "x": 90,
+        "y": 90
       },
       "when": {
         "state": "conflicted",
@@ -92,7 +100,7 @@
     },
     {
       "apply": {
-        "model": "ae2:block/controller/controller_vertical_conflicted"
+        "model": "ae2:block/controller/controller_column_conflicted"
       },
       "when": {
         "state": "conflicted",
@@ -101,7 +109,8 @@
     },
     {
       "apply": {
-        "model": "ae2:block/controller/controller_horiztonal_z_conflicted"
+        "model": "ae2:block/controller/controller_column_conflicted",
+        "x": 90
       },
       "when": {
         "state": "conflicted",
@@ -110,43 +119,25 @@
     },
     {
       "apply": {
-        "model": "ae2:block/controller/inside_controller_block_offline"
+        "model": "ae2:block/controller/controller_inside_a"
       },
       "when": {
-        "state": "offline",
+        "state": "offline|online",
         "type": "inside_a"
       }
     },
     {
       "apply": {
-        "model": "ae2:block/controller/inside_controller_block_offline"
+        "model": "ae2:block/controller/controller_inside_b"
       },
       "when": {
-        "state": "offline",
+        "state": "offline|online",
         "type": "inside_b"
       }
     },
     {
       "apply": {
-        "model": "ae2:block/controller/inside_controller_block_online"
-      },
-      "when": {
-        "state": "online",
-        "type": "inside_a"
-      }
-    },
-    {
-      "apply": {
-        "model": "ae2:block/controller/inside_controller_block_online"
-      },
-      "when": {
-        "state": "online",
-        "type": "inside_b"
-      }
-    },
-    {
-      "apply": {
-        "model": "ae2:block/controller/inside_controller_block_conflicted"
+        "model": "ae2:block/controller/controller_inside_a_conflicted"
       },
       "when": {
         "state": "conflicted",
@@ -155,7 +146,7 @@
     },
     {
       "apply": {
-        "model": "ae2:block/controller/inside_controller_block_conflicted"
+        "model": "ae2:block/controller/controller_inside_b_conflicted"
       },
       "when": {
         "state": "conflicted",

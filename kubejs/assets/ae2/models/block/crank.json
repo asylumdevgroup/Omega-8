@@ -1,64 +1,45 @@
 {
-	"credit": "Made with Blockbench",
-	"parent": "block/block",
-	"textures": {
-		"1": "ae2:block/crank_base",
-		"particle": "ae2:block/crank",
-		"wood": "ae2:block/crank"
-	},
-	"elements": [
-		{
-			"name": "Connector",
-			"from": [5, 0, 5],
-			"to": [11, 3, 11],
-			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8, 8]},
-			"faces": {
-				"north": {"uv": [10, 10, 16, 7], "rotation": 180, "texture": "#1"},
-				"east": {"uv": [10, 7, 16, 10], "texture": "#1"},
-				"south": {"uv": [10, 7, 16, 10], "texture": "#1"},
-				"west": {"uv": [10, 10, 16, 7], "rotation": 180, "texture": "#1"},
-				"up": {"uv": [4, 10, 10, 16], "rotation": 180, "texture": "#1"},
-				"down": {"uv": [10, 10, 16, 16], "texture": "#1"}
-			}
-		},
-		{
-			"name": "Arm",
-			"from": [-3, 5, 8],
-			"to": [13, 8, 10],
-			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8, 8]},
-			"faces": {
-				"east": {"uv": [2, 6, 5, 8], "rotation": 270, "texture": "#wood"},
-				"south": {"uv": [0, 10, 16, 13], "rotation": 180, "texture": "#wood"},
-				"west": {"uv": [9, 0, 6, 2], "rotation": 90, "texture": "#wood"},
-				"up": {"uv": [0, 0, 16, 2], "rotation": 180, "texture": "#wood"},
-				"down": {"uv": [0, 11, 16, 9], "texture": "#wood"}
-			}
-		},
-		{
-			"name": "Arm",
-			"from": [-3, 5, 6],
-			"to": [13, 8, 8],
-			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8, 8]},
-			"faces": {
-				"north": {"uv": [0, 10, 16, 13], "rotation": 180, "texture": "#wood"},
-				"east": {"uv": [6, 2, 9, 0], "rotation": 270, "texture": "#wood"},
-				"west": {"uv": [5, 8, 2, 6], "rotation": 90, "texture": "#wood"},
-				"up": {"uv": [0, 14, 16, 16], "rotation": 180, "texture": "#wood"},
-				"down": {"uv": [0, 9, 16, 11], "texture": "#wood"}
-			}
-		},
-		{
-			"name": "Grip",
-			"from": [6, 3, 7],
-			"to": [10, 5, 9],
-			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8, 8]},
-			"faces": {
-				"north": {"uv": [11, 4, 15, 6], "rotation": 180, "texture": "#wood"},
-				"east": {"uv": [12, 6, 10, 4], "texture": "#wood"},
-				"south": {"uv": [11, 6, 15, 4], "texture": "#wood"},
-				"west": {"uv": [12, 4, 10, 6], "rotation": 180, "texture": "#wood"},
-				"down": {"uv": [12, 9, 8, 11], "texture": "#wood"}
-			}
-		}
-	]
+  "credit": "Made with Blockbench",
+  "parent": "block/block",
+  "textures": {
+    "particle": "ae2:block/crank",
+    "wood": "ae2:block/crank"
+  },
+  "elements": [
+    {
+      "name": "Crank Base",
+      "from": [6, 0, 6],
+      "to": [10, 3, 10],
+      "faces": {
+        "north": { "uv": [0, 0, 3, 4], "rotation": 270, "texture": "#wood" },
+        "east": { "uv": [0, 4, 3, 8], "rotation": 270, "texture": "#wood" },
+        "south": { "uv": [0, 8, 3, 4], "rotation": 270, "texture": "#wood" },
+        "west": { "uv": [0, 4, 3, 0], "rotation": 270, "texture": "#wood" },
+        "up": { "uv": [3, 0, 7, 4], "texture": "#wood" },
+        "down": { "uv": [7, 0, 11, 4], "texture": "#wood", "cullface": "down" }
+      }
+    },
+    {
+      "from": [7, 3, 7],
+      "to": [9, 9, 9],
+      "faces": {
+        "north": { "uv": [2, 8, 4, 14], "texture": "#wood" },
+        "east": { "uv": [0, 8, 2, 14], "texture": "#wood" },
+        "south": { "uv": [6, 8, 8, 14], "texture": "#wood" },
+        "west": { "uv": [4, 8, 6, 14], "texture": "#wood" }
+      }
+    },
+    {
+      "from": [7, 9, 7],
+      "to": [14, 11, 9],
+      "faces": {
+        "north": { "uv": [8, 8, 15, 10], "texture": "#wood" },
+        "east": { "uv": [10, 4, 12, 6], "texture": "#wood" },
+        "south": { "uv": [3, 4, 10, 6], "texture": "#wood" },
+        "west": { "uv": [10, 6, 12, 8], "texture": "#wood" },
+        "up": { "uv": [3, 6, 10, 8], "texture": "#wood" },
+        "down": { "uv": [8, 10, 15, 12], "texture": "#wood" }
+      }
+    }
+  ]
 }

@@ -1,6 +1,0 @@
-{
-  "parent": "ae2:block/controller/controller_block_lights_y",
-  "textures": {
-		"0": "ae2:block/controller/vertical_base"
-  }
-}
