@@ -2,11 +2,11 @@
 	// Auth Button
 	"authButton": {
 		// Position of the button on the multiplayer screen
-		"x": 6,
+		"x": 439,
 		// Position of the button on the multiplayer screen
-		"y": 6,
+		"y": 243,
 		// True if the button can be dragged to a new position
-		"draggable": true
+		"draggable": false
 	},
 	// Login Methods
 	"methods": {
