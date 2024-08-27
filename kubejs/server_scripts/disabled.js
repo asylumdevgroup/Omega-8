@@ -1,0 +1,10 @@
+ServerEvents.recipes(event => {
+  event.remove({ output: 'chipped:botanist_workbench' })
+  event.remove({ output: 'chipped:glassblower' })
+  event.remove({ output: 'chipped:carpenters_table' })
+  event.remove({ output: 'chipped:loom_table' })
+  event.remove({ output: 'chipped:alchemy_bench' })
+  event.remove({ output: 'chipped:mason_table' })
+  event.remove({ output: 'chipped:tinkering_table' })
+  event.remove({ output: 'balancedflight:ascended_flight_ring'})
+})
