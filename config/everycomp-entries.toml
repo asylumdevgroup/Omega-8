@@ -220,6 +220,10 @@
 			rotten = true
 			windswept = true
 
+		[types.leaves_type.wizards_reborn]
+			arcane_wood = true
+			innocent_wood = true
+
 	[types.wood_type]
 
 		[types.wood_type.ars_nouveau]
@@ -341,6 +345,10 @@
 			haunted = true
 			rotten = true
 			windswept = true
+
+		[types.wood_type.wizards_reborn]
+			arcane_wood = true
+			innocent_wood = true
 
 #Disables specific entries
 [entries]

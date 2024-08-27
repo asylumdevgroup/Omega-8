@@ -10,6 +10,9 @@
 ##########################################################################################################
 
 "Accessibility Options" {
+    # Whether or not Antique Book Bag should be enabled. [default: true, synchronized: yes]
+    B:AntiqueBookBagEnabled=true
+
     # Whether or not Charm of Hell Blade should be enabled. [default: true, synchronized: yes]
     B:CharmofHellBladeEnabled=true
 
@@ -28,6 +31,18 @@
     # Whether or not Fragment of the Earth should be enabled. [default: true, synchronized: yes]
     B:FragmentoftheEarthEnabled=true
 
+    # Whether or not Frost Aspect Enchantment should be enabled. [default: true, synchronized: yes]
+    B:FrostAspectEnchantmentEnabled=true
+
+    # Whether or not Frost Protection Enchantment should be enabled. [default: true, synchronized: yes]
+    B:FrostProtectionEnchantmentEnabled=true
+
+    # Whether or not Ichor Droplet should be enabled. [default: true, synchronized: yes]
+    B:IchorDropletEnabled=true
+
+    # Whether or not Ichoroot should be enabled. [default: true, synchronized: yes]
+    B:IchorootEnabled=true
+
     # Whether or not Lost Engine should be enabled. [default: true, synchronized: yes]
     B:LostEngineEnabled=true
 
@@ -43,11 +58,17 @@
     # Whether or not Potion of Cosmic should be enabled. [default: true, synchronized: yes]
     B:PotionofCosmicEnabled=true
 
+    # Whether or not Potion of Mercy should be enabled. [default: true, synchronized: yes]
+    B:PotionofMercyEnabled=true
+
     # Whether or not Primeval Cube should be enabled. [default: true, synchronized: yes]
     B:PrimevalCubeEnabled=true
 
     # Whether or not Promise of the Earth should be enabled. [default: true, synchronized: yes]
     B:PromiseoftheEarthEnabled=true
+
+    # Whether or not Pure Heart should be enabled. [default: true, synchronized: yes]
+    B:PureHeartEnabled=true
 
     # Whether or not Revival Leaf should be enabled. [default: true, synchronized: yes]
     B:RevivalLeafEnabled=true
@@ -67,7 +88,21 @@
 ##########################################################################################################
 
 "Balance Options" {
-    # The Cooldown to unequip this Charm. Defined as tick. [range: 0 ~ 32768, default: 600, synchronized: yes]
+    # List of items that can be stored in the Antique Book Bag. Examples: enigmaticaddons:false_justice. Changing this option required game restart to take effect. [default: [enigmaticlegacy:the_acknowledgment], [enigmaticlegacy:animal_guidebook], [enigmaticlegacy:hunter_guidebook], [enigmaticaddons:ode_to_living], [enigmaticlegacy:the_twist], [enigmaticaddons:false_justice], [enigmaticlegacy:the_infinitum], synchronized: no]
+    S:AntiqueBookBagList <
+        enigmaticlegacy:the_acknowledgment
+        enigmaticlegacy:animal_guidebook
+        enigmaticlegacy:hunter_guidebook
+        enigmaticaddons:ode_to_living
+        enigmaticlegacy:the_twist
+        enigmaticaddons:false_justice
+        enigmaticlegacy:the_infinitum
+     >
+
+    # How much less effective armor will be for those who bear the charm. Measured as percentage. [range: 50 ~ 100, default: 100, synchronized: yes]
+    I:CharmofHellBladeArmorDebuff=100
+
+    # The Cooldown to unequip this Charm. Defined as tick. [range: 0 ~ 32768, default: 1200, synchronized: yes]
     I:CharmofHellBladeEquipCooldown=600
 
     # The Multiplier of healing when active the skill of Hell Blade Charm. [range: 0.0 ~ 100.0, default: 0.8, synchronized: yes]
@@ -97,8 +132,12 @@
     # Active ability cooldown for Lost Engine. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 0, synchronized: yes]
     I:LostEngineCooldown=0
 
-    # The crit damage modifier of the Lost Engine. [range: 0 ~ 256, default: 80, synchronized: yes]
+    # The crit damage modifier of the Lost Engine. [range: 0 ~ 256, default: 60, synchronized: yes]
     I:LostEngineCritDamageModifier=80
+
+    # List of entities that will be affected as Golem by the Lost Engine. Examples: minecraft:iron_golem. Changing this option required game restart to take effect. [default: , synchronized: no]
+    S:LostEngineExtraGolemList <
+     >
 
     # The gravity multiplier of the Lost Engine. [range: 0.0 ~ 1.0, default: 0.4, synchronized: yes]
     D:LostEngineGravityModifier=0.4
@@ -160,7 +199,7 @@
     # The effect radius of Revival Leaf' ability. [range: 0.0 ~ 32768.0, default: 5.0, synchronized: yes]
     D:RevivalLeafAbilityRadius=5.0
 
-    # Active ability cooldown for Revival Leaf. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 200, synchronized: yes]
+    # Active ability cooldown for Revival Leaf. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 320, synchronized: yes]
     I:RevivalLeafCooldown=200
 
     # The time required for each 0.5HP treatment from the  natural regeneration of the Revival Leaf. Measured in ticks. [range: 5 ~ 32768, default: 40, synchronized: yes]
