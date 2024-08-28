@@ -1,8 +1,8 @@
 {
 	"clientData": {
 		"showGroupTabs": true,
-		"showUniqueRendering": false,
-		"inventoryButtonXOffset": 66,
+		"showUniqueRendering": true,
+		"inventoryButtonXOffset": 26,
 		"inventoryButtonYOffset": 9,
 		"creativeInventoryButtonXOffset": 96,
 		"creativeInventoryButtonYOffset": 7,
