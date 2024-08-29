@@ -9,3 +9,6 @@ net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
 com.bisecthosting.mods.bhmenu.modules.publicserverlist.screen.PublicServersScreen {
 }
 
+me.axieum.mcmod.authme.impl.gui.AuthMethodScreen {
+}
+

@@ -285,10 +285,6 @@
 			orange_wilted = true
 			red_wilted = true
 
-		[types.leaves_type.valoria]
-			shadewood = true
-			eldritch = true
-
 	[types.wood_type]
 
 		[types.wood_type.ars_nouveau]
@@ -472,9 +468,6 @@
 
 		[types.wood_type.minecells]
 			putrid = true
-
-		[types.wood_type.valoria]
-			eldritch = true
 
 #Disables specific entries
 [entries]
