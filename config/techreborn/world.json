@@ -62,7 +62,7 @@
     },
     "enableSilverOreGeneration": {
       "comment": "When enabled and enableOreGeneration isn\u0027t disabled, silver ores will generate in the world",
-      "value": true
+      "value": false
     },
     "enableCinnabarOreGeneration": {
       "comment": "When enabled and enableOreGeneration isn\u0027t disabled, cinnabar ores will generate in the world",
@@ -74,11 +74,11 @@
     },
     "enableLeadOreGeneration": {
       "comment": "When enabled and enableOreGeneration isn\u0027t disabled, lead ores will generate in the world",
-      "value": true
+      "value": false
     },
     "enableTinOreGeneration": {
       "comment": "When enabled and enableOreGeneration isn\u0027t disabled, tin ores will generate in the world",
-      "value": true
+      "value": false
     }
   },
   "loot": {
